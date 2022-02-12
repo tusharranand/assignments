@@ -1,0 +1,17 @@
+Data analysis/manipulation (Awk)
+
+
+(i)
+cat data.csv | awk '{if ($4>=10000) print $2 " " $7}'
+
+
+(ii)
+grep -i captain data.csv | awk '{total+=$7}END{print total}'
+
+
+(iii)
+cat data.csv | awk '{if ($5>7000 && $5<10000) print $3 " " $5}'
+
+
+(iv)
+ cat data.csv | awk '{total+=$4}END{print total/(NR-1)}'
