@@ -1,4 +1,6 @@
 
+# Since these problems were too small, there are 3 in this file.
+
 # 1. Use Random Function ((RANDOM)) to get Single Digit
 
 single=$((RANDOM%10))
